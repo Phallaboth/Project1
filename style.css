@@ -62,7 +62,7 @@ main{
 
 section{
     width: 100%;
-    height: 550px;
+    height: 600px;
     
     position: relative;
 }
@@ -512,11 +512,13 @@ section{
     border: none;
     border-radius: 5px;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.597) 0px 5px 15px;
 }
 
 .container4 .top .button button:hover{
     background-color:indianred;
 }
+
 
 .container4 .bottom{
     height: 50%;
@@ -554,29 +556,124 @@ section{
 }
 
 .container5 .main{
-    height: 20%;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
-
+    position: relative;
 }
 .container5 .main .top{
-    height: 200px;
+    height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+    position: absolute;
+    top: -750px;
 }
 
 .container5 .main .top .boxes{
-    height: 20%;
-    width: 5%;
-    border: 2px solid black;
+    height: 60%;
+    width: 10%;
+    border: 2.5px solid rgb(255, 0, 0);
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playwrite AU QLD", cursive;
+    background-color: rgba(245, 245, 245, 0.766);
+    box-shadow: rgba(0, 0, 0, 0.54) 0px 5px 15px;
+}
+
+
+.container5 .main .bottom{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    position: absolute;
+    top: -500px;
+}
+
+
+
+.container5 .main .bottom .null{
+    width: 10%;
+    height: 100%;
+}
+
+
+
+.container5 .main .bottom .left{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: "Playwrite AU QLD", cursive;
+    color: white;
+}
+
+.container5 .main .bottom .left h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container5 .main .bottom .left p{
+    font-size: 12px;
+}
+
+.container5 .main .bottom .left span{
+    width: 60px;
+    border-top: 3px solid white ;
+    margin-top: 20px;
+}
+
+.container5 .main .bottom .left .info{
+    height: 20%;
+    width: 100%;
+    background-color: red;
+    font-size: 10px;
+}
+
+
+
+
+.container5 .main .bottom .mid{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite AU QLD", cursive;
+    color: white;
+}
+
+
+
+
+.container5 .main .bottom .right{
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    font-family: "Playwrite AU QLD", cursive;
+    color: white;
 }
 
 
@@ -609,12 +706,15 @@ section{
 
 .scroll {
  width: 100%;
- height: 200px;
+ height: 150px;
  display: flex;
  align-items: center; 
- gap: 10px;
+ gap: 50px;
  padding-left: 20px;
  overflow-x: auto;
+ border-top: 5px dotted rgb(86, 86, 86);
+ border-bottom: 5px dotted rgb(86, 86, 86);
+ background-color:rgba(222, 184, 135, 0.645);
 }
 
 .scroll::-webkit-scrollbar{
@@ -623,7 +723,7 @@ section{
 
 .container0 .scroll .obj{
     width: 20%;
-    height: 40%;
+    height: 50%;
     border-radius: 30px;
     font-size: 25px;
     display: flex;
@@ -635,4 +735,5 @@ section{
     font-family: "Playwrite AU QLD", cursive;
     color:indianred;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.54) 0px 5px 15px;
 }
